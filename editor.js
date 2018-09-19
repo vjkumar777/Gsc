@@ -272,5 +272,5 @@ function mporder(){
 document.getElementById("next").click();
 }
 function goback(){
-window.location.href = "chose.html";
+window.location.href = "http://systema.epizy.com/chose.html";
 }
