@@ -160,22 +160,12 @@ width:45%;
 }
 </style>
         <script src="jquery1.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('#hider').hide();
-    $(window).on({
-      load: function() {
-        $('#loader').fadeOut();
-         $('#hider').fadeIn();
-    }
-         })
-        })
-    </script>
+
 <body onkeyup="changeBackground();">
 <div style="width:100%;text-align:center;left:0;top:37%;position:fixed;" id="loader">
   <img src="39.gif" style="height:60px;width:60px;text-align:center;top:50%;">
 </div>
-  <div id="hider" style="display:none;">
+  <div id="hider" style="display:block;">
 <div class="top">
 <img src="ic_close.png" id="back" onclick="goback();">
 </div>
